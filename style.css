@@ -22,4 +22,11 @@ body {
   background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(78,95,142,1) 85%);
   box-shadow: 0px 32px 46px rgba(12,18,37,0.59);
   border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.mask > img {
+  /* margin-bottom: -13px; */
 }
