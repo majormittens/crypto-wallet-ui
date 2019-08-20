@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1282px" height="293px" viewBox="0 0 1282 293" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <linearGradient x1="0.5" y1="0.581001341" x2="0.5" y2="1" id="gradient_1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.5803922" />
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.298039228" />
+    </linearGradient>
+    <linearGradient x1="-1.110223E-16" y1="0.5" x2="1" y2="0.5" id="gradient_2">
+      <stop offset="0" stop-color="#1EADEE" />
+      <stop offset="1" stop-color="#B94BEE" />
+    </linearGradient>
+    <path d="M1281.77 279.228L0 279.228L0 17.8808C0 17.8808 31.0019 53.1102 48.5021 50.8615C66.0023 48.6128 106.753 -17.3486 146.003 4.3887C185.254 26.126 367.506 256.741 418.506 255.742C469.507 254.742 489.257 157.799 529.258 160.297C569.258 162.796 616.759 292.22 637.009 273.981C657.259 255.742 688.759 195.277 723.26 196.276C757.76 197.276 792.511 294.969 823.261 292.97C854.011 290.971 926.012 169.792 951.762 171.541C977.513 173.29 1003.26 228.008 1022.76 224.51C1042.26 221.012 1036.01 174.095 1054.26 160.297C1072.51 146.5 1085.01 156.05 1094.26 140.309C1103.51 124.568 1123.01 61.8551 1147.26 61.6052C1171.52 61.3553 1186.27 91.8375 1203.27 84.3419C1220.27 76.8463 1213.77 53.36 1249.27 54.6093C1284.77 55.8586 1281.77 97.3343 1281.77 97.3343L1281.77 279.228Z" id="path_1" />
+  </defs>
+  <g id="Graph_1">
+    <use stroke="none" fill="url(#gradient_1)" fill-opacity="0.45" xlink:href="#path_1" />
+    <use stroke="none" fill="url(#gradient_2)" fill-opacity="0.45" xlink:href="#path_1" />
+  </g>
+</svg>
