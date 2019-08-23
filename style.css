@@ -27,6 +27,26 @@ body {
   overflow: hidden;
 }
 
-.mask > img {
-  /* margin-bottom: -13px; */
+.toolbox {
+  /* background: rgba(78,95,142,1); */
+  background: #3c496d;
+  box-shadow: 0px 0px17px rgba(0,0,0,0.12);
+  box-shadow: 0px 0px24px rgba(0,0,0,0.02);
+  border-radius: 10px;
+}
+
+.toolbox-header {
+  border-radius: 10px;
+  clip-path: ellipse(63% 56% at 37% 2%);
+  background: radial-gradient(circle at top left, #E74DFF, #8068FE, #47F2FF);
+}
+
+._panel {
+  height: 417px;
+  /* filter: blur(6px); */
+  background: rgba(255,255,255,0.1);
+}
+/* clip-path: ellipse(64% 39% at 35% 0%); */
+.panel-btn {
+  background: radial-gradient(circle at top left, #E74DFF, #8068FE, #47F2FF);
 }
