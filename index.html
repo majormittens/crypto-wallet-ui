@@ -2,12 +2,13 @@
 <html>
 <head>
         <link rel="stylesheet" type="text/css" href="./style.css">
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <div id="app" class="bG_gradien">
-        <div class="mask">
-            <img src="./assets/Graph_1.svg" style="opacity: 0.5; " width="100%" alt=""/>
-            <img src="./assets/Graph_2.svg" width="100%" alt=""/>
+    <div id="app" class="bG_gradien overflow-hidden">
+        <div class="relative mask">
+            <img class="absolute bottom-0 -mb-1 -ml-2" src="./assets/Graph_2.svg" alt=""/>
+            <img class="absolute bottom-0 -mb-4" src="./assets/Graph_1.svg" alt=""/>
         </div>
         
     </div>
