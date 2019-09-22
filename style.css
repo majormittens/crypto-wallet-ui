@@ -25,24 +25,39 @@ body {
 
 .toolbox {
   /* background: rgba(78,95,142,1); */
-  background: #3c496d;
-  box-shadow: 0px 0px17px rgba(0,0,0,0.12);
-  box-shadow: 0px 0px24px rgba(0,0,0,0.02);
-  border-radius: 10px;
-}
-
-.toolbox-header {
-  border-radius: 10px;
-  clip-path: ellipse(63% 56% at 37% 2%);
-  background: radial-gradient(circle at top left, #E74DFF, #8068FE, #47F2FF);
+  background: #47F2FF;
 }
 
 ._panel {
   height: 417px;
   /* filter: blur(6px); */
-  background: rgba(255,255,255,0.1);
+  background:#47F2FF;
+  box-shadow: 0px 0px 52px -18px #4e5f8e;
 }
 /* clip-path: ellipse(64% 39% at 35% 0%); */
 .panel-btn {
   background: radial-gradient(circle at top left, #E74DFF, #8068FE, #47F2FF);
 }
+
+#header {
+  /* background: radial-gradient(circle at top left, rgba(78,95,142,1), #8068FE, #47F2FF); */
+  background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(78,95,142,1) 85%);
+
+}
+
+.floating {  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+/* #4E5F8E for icons */
